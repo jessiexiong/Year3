@@ -1,4 +1,4 @@
-N = 100;
+N = 1000000;
 x=[1 2 3 4 5 6];
 xarray = randi(6, [3, N]);
 x1 = xarray(1,:);
@@ -21,7 +21,6 @@ y = sum(xarray, 1)
 
 stem(x,H1, 'Color',[0 0 1])
 title('Count of Number Rolled')
-axis([1 6 0 100])
 
 hold on
 
